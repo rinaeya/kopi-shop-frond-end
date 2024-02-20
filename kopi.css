@@ -1,3 +1,10 @@
+body, h1, h3, h5, p, button {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    color: #000;
+    font-style: normal;
+}
+
 .bg {
     z-index: -5;
     background-color: #F6EADA;
@@ -9,6 +16,42 @@
     position: absolute;
     width: 650px;
     height: 400px;
-    top: -70px;
-    left: -20px;
+    top: -90px;
+    left: -10px;
 }
+
+.rounded-bg {
+    position: center;
+    background-color: #f9d9aa; 
+    border-radius:50px 50px 50px 50px; 
+    margin-top: -20%; 
+    padding-left: 20%;
+    padding-top: 10%; 
+    margin-bottom: -5%;
+    overflow: hidden;
+}
+
+.card.shadow {
+    border-radius: 10px;
+    border: 2px solid rgba(255, 255, 255, 0.789); 
+    box-shadow: 0 0 6px rgba(255, 255, 255, 0.7);
+}
+
+.card-img-top {
+    border-radius: 15px 15px 15px 15px;
+}
+
+.badge {
+    background-color: rgb(255, 255, 255);
+    width: 80px;
+    border-radius: 18px;
+    height: 28px;
+    font-size: 15px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 25px;
+    left: 30px;
+  }
